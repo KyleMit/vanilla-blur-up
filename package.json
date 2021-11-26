@@ -1,0 +1,26 @@
+{
+    "name": "@kylemit/vanilla-blur-up",
+    "version": "1.0.0",
+    "description": "Blur Up Image Example with Vanilla JS",
+    "main": "build.js",
+    "scripts": {
+        "build": "node build.js",
+        "serve": "npm run build && cd _site && npx live-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KyleMit/vanilla-blur-up.git"
+    },
+    "keywords": [],
+    "author": "KyleMit",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/KyleMit/vanilla-blur-up/issues"
+    },
+    "homepage": "https://github.com/KyleMit/vanilla-blur-up#readme",
+    "dependencies": {
+        "sharp": "^0.26.1",
+        "sqip": "^1.0.0-alpha.32",
+        "sqip-plugin-primitive": "^1.0.0-alpha.34"
+    }
+}
