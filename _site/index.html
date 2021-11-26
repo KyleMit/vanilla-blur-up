@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blur Up</title>
+
+    <style>
+        body {
+            max-width: 40rem;
+            margin: 0 auto;
+            background: whitesmoke;
+            text-align: center;
+        }
+        
+        picture img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Blur Up Technique with Picture Source</h1>
+
+    ![gan gan](/assets/frida.jpg)
+
+    <img src="/assets/frida.jpg" alt="gan gan">
+
+    <picture>
+        <source srcset="/assets/frida.webp" type="image/webp">
+        <source srcset="/assets/frida.jpg" type="image/jpeg">
+        <img src="/assets/frida.jpg" alt="gan gan">
+    </picture>
+
+    <picture>
+        <source srcset="/assets/gan.webp" type="image/webp">
+        <source srcset="/assets/gan.jpg" type="image/jpeg">
+        <img src="/assets/gan.jpg" alt="gan gan">
+    </picture>
+
+</body>
+
+</html>
